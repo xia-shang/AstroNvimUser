@@ -20,6 +20,14 @@ return {
       return opts
     end,
   },
+
+  {
+    "akinsho/toggleterm.nvim",
+    opts = function(_, opts)
+      opts.direction = "horizontal"
+      return opts
+    end
+  },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
